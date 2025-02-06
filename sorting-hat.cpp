@@ -117,9 +117,41 @@ int main() {
             ravenclaw += 1;
             break;
         default:
-            std::cout << "Invalid input.\n";
+            break;
     }
 
-    
+    // Finding results
+    int max = 0;
+    std::string house;
+
+    if (gryffindor > max) {
+
+        max = gryffindor;
+        house = "Gryffindor";
+
+    }
+
+    if (hufflepuff > max) {
+
+        max = hufflepuff;
+        house = "Hufflepuff";
+        
+    }
+
+    if (ravenclaw > max) {
+
+        max = ravenclaw;
+        house = "Ravenclaw";
+        
+    }
+
+    if (slytherin > max) {
+
+        max = slytherin;
+        house = "Slytherin";
+        
+    }
+
+    std::cout << "\n" << house << "!\n";
     
 }
