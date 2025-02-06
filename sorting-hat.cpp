@@ -65,5 +65,61 @@ int main() {
         default:
             std::cout << "Invalid input.\n";
     }
+
+    // Question 3
+    std::cout << "\nQ3) What kind of instrument most pleases your ear?\n\n";
+    std::cout << "    1) The violin\n";
+    std::cout << "    2) The trumpet\n";
+    std::cout << "    3) The piano\n";
+    std::cout << "    4) The drum\n";
+
+    std::cin >> answer3;
+
+    // Answer 3 Point Flow
+    switch (answer3) {
+        case 1:
+            slytherin += 1;
+            break;
+        case 2:
+            hufflepuff += 1;
+            break;
+        case 3:
+            ravenclaw += 1;
+            break;
+        case 4:
+            gryffindor += 1;
+            break;
+        default:
+            std::cout << "Invalid input.\n";
+    }
+
+    // Question 4
+    std::cout << "\nQ4) Which road tempts you the most?\n\n";
+    std::cout << "    1) The wide, sunny grassy lane\n";
+    std::cout << "    2) The narrow, dark, lantern-lit alley\n";
+    std::cout << "    3) The twisting, leaf-strewn path through woods\n";
+    std::cout << "    4) The cobbled streed lined (ancient buildings)\n";
+
+    std::cin >> answer3;
+
+    // Answer 4 Point Flow
+    switch (answer4) {
+        case 1:
+            hufflepuff += 1;
+            break;
+        case 2:
+            slytherin += 1;
+            break;
+        case 3:
+            gryffindor += 1;
+            break;
+        case 4:
+            ravenclaw += 1;
+            break;
+        default:
+            std::cout << "Invalid input.\n";
+    }
+
+    
     
 }
