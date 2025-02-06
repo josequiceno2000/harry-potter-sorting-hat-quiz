@@ -16,4 +16,13 @@ int main() {
 
     // Welcome message
     std::cout << "The Sorting Hat Quiz\n";
+
+    // Questions
+    std::cout << "\nQ1) When I'm dead, I want people to remember me as:\n\n";
+    std::cout << "    1) The Good\n";
+    std::cout << "    2) The Great\n";
+    std::cout << "    3) The Wise\n";
+    std::cout << "    4) The Bold\n";
+
+    std::cin >> answer1;
 }
