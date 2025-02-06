@@ -25,4 +25,23 @@ int main() {
     std::cout << "    4) The Bold\n";
 
     std::cin >> answer1;
+
+    // House Point Flows
+    switch (answer1) {
+        case 1:
+            hufflepuff += 1;
+            break;
+        case 2:
+            slytherin += 1;
+            break;
+        case 3:
+            ravenclaw += 1;
+            break;
+        case 4:
+            gryffindor += 1;
+            break;
+        default:
+            std::cout << "Invalid input.\n";
+    }
+    
 }
